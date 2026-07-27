@@ -2,12 +2,13 @@
 
 A comprehensive Exploratory Data Analysis (EDA) on Netflix's movies and TV show catalog. This project analyzes content distribution, genre trends, release years, ratings, and top contributing countries using Python data visualization libraries.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sendisha1808/netflix-eda-and-insights/blob/main/netflix_data_visualization.ipynb)
+
 ---
 
 ## 📊 Key Highlights & Visuals
 
-*(Optional: Add an image from your notebook here!)*
-![Netflix Analysis Preview](assets/preview_chart.png)
+![Netflix Analysis Preview](Duration_Dist.png)
 
 ### Key Insights
 - **Content Ratio:** Breakdown between Movies and TV Shows.
@@ -20,8 +21,8 @@ A comprehensive Exploratory Data Analysis (EDA) on Netflix's movies and TV show 
 
 - **Language:** Python
 - **Data Manipulation:** `pandas`, `numpy`
-- **Data Visualization:** `matplotlib`, `seaborn`, `plotly`
-- **Environment:** Jupyter Notebook
+- **Data Visualization:** `matplotlib`, `plotly`
+- **Environment:** Google Colab
 
 ---
 
@@ -40,24 +41,13 @@ The dataset includes information on movies and TV shows available on Netflix, in
 
 ## 🚀 How to Run
 
-1. **Clone the repository:**
+1. **Run directly in Google Colab (Recommended):**
+   - Click the **Open in Colab** badge at the top of this README.
+   - Run the cells sequentially to execute the code and view the visualizations.
+
+2. **Run locally:**
    ```bash
-   git clone [https://github.com/your-username/netflix-data-visualization.git](https://github.com/your-username/netflix-data-visualization.git)
+   git clone [https://github.com/sendisha1808/netflix-eda-and-insights.git](https://github.com/your-username/netflix-eda-and-insights.git)
    cd netflix-data-visualization
-   ```
-
-2. **Install dependencies:**
-   ```bash
    pip install -r requirements.txt
-   ```
-
-3. **Launch the notebook:**
-   ```bash
-   jupyter notebook notebooks/netflix_analysis.ipynb
-   ```
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+   jupyter notebook netflix_data_visualization.ipynb
