@@ -45,7 +45,7 @@ The dataset includes information on movies and TV shows available on Netflix, in
    - Click the **Open in Colab** badge at the top of this README.
    - Run the cells sequentially to execute the code and view the visualizations.
 
-2. Dowmload the `netflix_titles.csv` file into the project folder if it is not already present.
+2. Download the `netflix_titles.csv` file into the project folder if it is not already present.
 
 3. **Run locally:**
    ```bash
